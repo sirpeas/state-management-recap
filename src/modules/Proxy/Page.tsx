@@ -1,8 +1,11 @@
+import PageProviders from './components/PageProviders';
+import PageContent from './components/PageContent';
+
 function Page() {
   return (
-    <div>
-      Proxy
-    </div>
+    <PageProviders>
+      <PageContent />
+    </PageProviders>
   );
 }
 export default Page;
