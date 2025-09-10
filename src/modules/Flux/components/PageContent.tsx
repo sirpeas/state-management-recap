@@ -1,6 +1,5 @@
 import { Counter } from 'modules/common/components/Counter';
 import { decrementCounterAction, incrementCounterAction } from 'modules/Flux/store/counter';
-
 import { useAppSelector, useAppDispatch } from 'modules/Flux/store';
 
 function PageContent() {
