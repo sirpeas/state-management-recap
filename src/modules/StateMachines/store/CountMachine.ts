@@ -1,4 +1,4 @@
-import { createMachine, assign, createActor } from 'xstate';
+import { createMachine, assign } from 'xstate';
 
 export const countMachine = createMachine({
   id: 'counter',
@@ -18,7 +18,3 @@ export const countMachine = createMachine({
     },
   },
 });
-
-export const counterActor = createActor(countMachine);
-counterActor.start();
-
